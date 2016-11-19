@@ -22,7 +22,7 @@
 // between each refreshing.
 
 // The name of the GPS publisher name by default
-var CONFIG_default_gps_topic_name = '/gps';
+var CONFIG_default_gps_topic_name = '/navsat/fix';
 
 // The number of cycles between every marker position reload
 var CONFIG_cycles_number = 20;
@@ -32,7 +32,7 @@ var CONFIG_cycles_number = 20;
 // If you downloaded tiles and put it in the car, then you can
 // access them in local, or else, connect to server.
 // Set this config to "local" or "server".
-var CONFIG_tile_source = 'local';
+var CONFIG_tile_source = 'server';
 
 // If you use local tiles, set here the path to it
 var CONFIG_tile_local_path = 'UPV/{z}/{x}/{y}.png';
